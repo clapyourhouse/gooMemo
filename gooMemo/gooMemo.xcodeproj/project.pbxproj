@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C233800C168438FC007C90A6 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C233800B168438FC007C90A6 /* libGoogleAdMobAds.a */; };
+		C233800E168439A9007C90A6 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C233800D168439A9007C90A6 /* AdSupport.framework */; };
+		C2338010168439FB007C90A6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C233800F168439FB007C90A6 /* StoreKit.framework */; };
+		C233801516844F3C007C90A6 /* libNendAd_readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = C233801216844F3B007C90A6 /* libNendAd_readme.txt */; };
+		C233801616844F3C007C90A6 /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C233801316844F3B007C90A6 /* libNendAd.a */; };
+		C233801816845033007C90A6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C233801716845033007C90A6 /* Security.framework */; };
+		C253C47216785A3B0001FE01 /* UIViewController+KNSemiModal.m in Sources */ = {isa = PBXBuildFile; fileRef = C253C47016785A3B0001FE01 /* UIViewController+KNSemiModal.m */; };
+		C253C47616785AB80001FE01 /* ModalModal.m in Sources */ = {isa = PBXBuildFile; fileRef = C253C47416785AB80001FE01 /* ModalModal.m */; };
+		C253C47716785AB80001FE01 /* ModalModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = C253C47516785AB80001FE01 /* ModalModal.xib */; };
+		C253C47B16785B2F0001FE01 /* KNView.m in Sources */ = {isa = PBXBuildFile; fileRef = C253C47916785B2F0001FE01 /* KNView.m */; };
+		C253C47C16785B2F0001FE01 /* KNView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C253C47A16785B2F0001FE01 /* KNView.xib */; };
+		C253C486167865290001FE01 /* KNView2.m in Sources */ = {isa = PBXBuildFile; fileRef = C253C484167865290001FE01 /* KNView2.m */; };
+		C253C487167865290001FE01 /* KNView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C253C485167865290001FE01 /* KNView2.xib */; };
+		C253C48B167865400001FE01 /* modalmodal2.m in Sources */ = {isa = PBXBuildFile; fileRef = C253C489167865400001FE01 /* modalmodal2.m */; };
+		C253C48C167865400001FE01 /* modalmodal2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C253C48A167865400001FE01 /* modalmodal2.xib */; };
+		C253C4A71678C30A0001FE01 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C253C4A61678C30A0001FE01 /* iAd.framework */; };
+		C253C5261678EF8F0001FE01 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C253C5251678EF8F0001FE01 /* SystemConfiguration.framework */; };
+		C253C5281678EF9E0001FE01 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C253C5271678EF9E0001FE01 /* MessageUI.framework */; };
+		C253C52A1678EFA50001FE01 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C253C5291678EFA50001FE01 /* AudioToolbox.framework */; };
+		C2A2EFE8168DBA3B00F9662E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A2EFE7168DBA3B00F9662E /* CoreData.framework */; };
+		C2A2EFEF168DBFAA00F9662E /* NSUserdefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EFED168DBFAA00F9662E /* NSUserdefaults.m */; };
+		C2A2EFF0168DBFAA00F9662E /* NSUserdefaults.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2A2EFEE168DBFAA00F9662E /* NSUserdefaults.xib */; };
+		C2A4B98816669283000BD0DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A4B98716669283000BD0DF /* UIKit.framework */; };
+		C2A4B98A16669283000BD0DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A4B98916669283000BD0DF /* Foundation.framework */; };
+		C2A4B98C16669283000BD0DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A4B98B16669283000BD0DF /* CoreGraphics.framework */; };
+		C2A4B99216669283000BD0DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2A4B99016669283000BD0DF /* InfoPlist.strings */; };
+		C2A4B99416669283000BD0DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A4B99316669283000BD0DF /* main.m */; };
+		C2A4B99816669283000BD0DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A4B99716669283000BD0DF /* AppDelegate.m */; };
+		C2A4B99A16669283000BD0DF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A4B99916669283000BD0DF /* Default.png */; };
+		C2A4B99C16669283000BD0DF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A4B99B16669283000BD0DF /* Default@2x.png */; };
+		C2A4B99E16669283000BD0DF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A4B99D16669283000BD0DF /* Default-568h@2x.png */; };
+		C2A4B9A116669283000BD0DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A4B9A016669283000BD0DF /* ViewController.m */; };
+		C2A4B9A416669283000BD0DF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2A4B9A216669283000BD0DF /* ViewController.xib */; };
+		C2A4B9B01666979D000BD0DF /* MemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A4B9AE1666979C000BD0DF /* MemoVC.m */; };
+		C2A4B9B11666979D000BD0DF /* MemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2A4B9AF1666979C000BD0DF /* MemoVC.xib */; };
+		C2A4BA88166785C4000BD0DF /* gooLog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2A4BA87166785C4000BD0DF /* gooLog.jpg */; };
+		C2A4BA921667A55E000BD0DF /* MemoSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A4BA901667A55E000BD0DF /* MemoSearch.m */; };
+		C2A4BA931667A55E000BD0DF /* MemoSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2A4BA911667A55E000BD0DF /* MemoSearch.xib */; };
+		C2A4BA951667B9C1000BD0DF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A4BA941667B9C1000BD0DF /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C2338002168438F9007C90A6 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		C2338003168438F9007C90A6 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		C2338004168438F9007C90A6 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		C2338005168438F9007C90A6 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		C2338006168438FA007C90A6 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		C2338007168438FA007C90A6 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		C2338008168438FA007C90A6 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		C2338009168438FB007C90A6 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		C233800A168438FB007C90A6 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		C233800B168438FC007C90A6 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		C233800D168439A9007C90A6 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C233800F168439FB007C90A6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C233801216844F3B007C90A6 /* libNendAd_readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libNendAd_readme.txt; sourceTree = "<group>"; };
+		C233801316844F3B007C90A6 /* libNendAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNendAd.a; sourceTree = "<group>"; };
+		C233801416844F3C007C90A6 /* NADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADView.h; sourceTree = "<group>"; };
+		C233801716845033007C90A6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C253C47016785A3B0001FE01 /* UIViewController+KNSemiModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KNSemiModal.m"; sourceTree = "<group>"; };
+		C253C47116785A3B0001FE01 /* UIViewController+KNSemiModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KNSemiModal.h"; sourceTree = "<group>"; };
+		C253C47316785AB80001FE01 /* ModalModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalModal.h; sourceTree = "<group>"; };
+		C253C47416785AB80001FE01 /* ModalModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalModal.m; sourceTree = "<group>"; };
+		C253C47516785AB80001FE01 /* ModalModal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalModal.xib; sourceTree = "<group>"; };
+		C253C47816785B2E0001FE01 /* KNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNView.h; sourceTree = "<group>"; };
+		C253C47916785B2F0001FE01 /* KNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNView.m; sourceTree = "<group>"; };
+		C253C47A16785B2F0001FE01 /* KNView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KNView.xib; sourceTree = "<group>"; };
+		C253C483167865290001FE01 /* KNView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNView2.h; sourceTree = "<group>"; };
+		C253C484167865290001FE01 /* KNView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNView2.m; sourceTree = "<group>"; };
+		C253C485167865290001FE01 /* KNView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KNView2.xib; sourceTree = "<group>"; };
+		C253C4881678653F0001FE01 /* modalmodal2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modalmodal2.h; sourceTree = "<group>"; };
+		C253C489167865400001FE01 /* modalmodal2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modalmodal2.m; sourceTree = "<group>"; };
+		C253C48A167865400001FE01 /* modalmodal2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = modalmodal2.xib; sourceTree = "<group>"; };
+		C253C4A61678C30A0001FE01 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		C253C5251678EF8F0001FE01 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C253C5271678EF9E0001FE01 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C253C5291678EFA50001FE01 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C2A2EFE7168DBA3B00F9662E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C2A2EFEC168DBFAA00F9662E /* NSUserdefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUserdefaults.h; sourceTree = "<group>"; };
+		C2A2EFED168DBFAA00F9662E /* NSUserdefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSUserdefaults.m; sourceTree = "<group>"; };
+		C2A2EFEE168DBFAA00F9662E /* NSUserdefaults.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSUserdefaults.xib; sourceTree = "<group>"; };
+		C2A4B98316669283000BD0DF /* gooMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gooMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A4B98716669283000BD0DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2A4B98916669283000BD0DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2A4B98B16669283000BD0DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2A4B98F16669283000BD0DF /* gooMemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gooMemo-Info.plist"; sourceTree = "<group>"; };
+		C2A4B99116669283000BD0DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2A4B99316669283000BD0DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2A4B99516669283000BD0DF /* gooMemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gooMemo-Prefix.pch"; sourceTree = "<group>"; };
+		C2A4B99616669283000BD0DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2A4B99716669283000BD0DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2A4B99916669283000BD0DF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C2A4B99B16669283000BD0DF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C2A4B99D16669283000BD0DF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C2A4B99F16669283000BD0DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2A4B9A016669283000BD0DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2A4B9A316669283000BD0DF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C2A4B9AD1666979C000BD0DF /* MemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoVC.h; sourceTree = "<group>"; };
+		C2A4B9AE1666979C000BD0DF /* MemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoVC.m; sourceTree = "<group>"; };
+		C2A4B9AF1666979C000BD0DF /* MemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemoVC.xib; sourceTree = "<group>"; };
+		C2A4BA87166785C4000BD0DF /* gooLog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gooLog.jpg; sourceTree = "<group>"; };
+		C2A4BA8F1667A55E000BD0DF /* MemoSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoSearch.h; sourceTree = "<group>"; };
+		C2A4BA901667A55E000BD0DF /* MemoSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoSearch.m; sourceTree = "<group>"; };
+		C2A4BA911667A55E000BD0DF /* MemoSearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemoSearch.xib; sourceTree = "<group>"; };
+		C2A4BA941667B9C1000BD0DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2A4B98016669283000BD0DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A2EFE8168DBA3B00F9662E /* CoreData.framework in Frameworks */,
+				C233801816845033007C90A6 /* Security.framework in Frameworks */,
+				C2338010168439FB007C90A6 /* StoreKit.framework in Frameworks */,
+				C233800E168439A9007C90A6 /* AdSupport.framework in Frameworks */,
+				C253C52A1678EFA50001FE01 /* AudioToolbox.framework in Frameworks */,
+				C253C5281678EF9E0001FE01 /* MessageUI.framework in Frameworks */,
+				C253C5261678EF8F0001FE01 /* SystemConfiguration.framework in Frameworks */,
+				C253C4A71678C30A0001FE01 /* iAd.framework in Frameworks */,
+				C2A4BA951667B9C1000BD0DF /* QuartzCore.framework in Frameworks */,
+				C2A4B98816669283000BD0DF /* UIKit.framework in Frameworks */,
+				C2A4B98A16669283000BD0DF /* Foundation.framework in Frameworks */,
+				C2A4B98C16669283000BD0DF /* CoreGraphics.framework in Frameworks */,
+				C233800C168438FC007C90A6 /* libGoogleAdMobAds.a in Frameworks */,
+				C233801616844F3C007C90A6 /* libNendAd.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C233801116843AD1007C90A6 /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				C2338002168438F9007C90A6 /* GADAdMobExtras.h */,
+				C2338003168438F9007C90A6 /* GADAdNetworkExtras.h */,
+				C2338004168438F9007C90A6 /* GADAdSize.h */,
+				C2338005168438F9007C90A6 /* GADBannerView.h */,
+				C2338006168438FA007C90A6 /* GADBannerViewDelegate.h */,
+				C2338007168438FA007C90A6 /* GADInterstitial.h */,
+				C2338008168438FA007C90A6 /* GADInterstitialDelegate.h */,
+				C2338009168438FB007C90A6 /* GADRequest.h */,
+				C233800A168438FB007C90A6 /* GADRequestError.h */,
+				C233800B168438FC007C90A6 /* libGoogleAdMobAds.a */,
+			);
+			name = Admob;
+			sourceTree = "<group>";
+		};
+		C233806A1684780B007C90A6 /* AdNend */ = {
+			isa = PBXGroup;
+			children = (
+				C233801216844F3B007C90A6 /* libNendAd_readme.txt */,
+				C233801316844F3B007C90A6 /* libNendAd.a */,
+				C233801416844F3C007C90A6 /* NADView.h */,
+			);
+			name = AdNend;
+			sourceTree = "<group>";
+		};
+		C253C47D16785F7C0001FE01 /* modalSearch */ = {
+			isa = PBXGroup;
+			children = (
+				C253C47016785A3B0001FE01 /* UIViewController+KNSemiModal.m */,
+				C253C47116785A3B0001FE01 /* UIViewController+KNSemiModal.h */,
+				C253C47816785B2E0001FE01 /* KNView.h */,
+				C253C47916785B2F0001FE01 /* KNView.m */,
+				C253C47A16785B2F0001FE01 /* KNView.xib */,
+				C253C47316785AB80001FE01 /* ModalModal.h */,
+				C253C47416785AB80001FE01 /* ModalModal.m */,
+				C253C47516785AB80001FE01 /* ModalModal.xib */,
+			);
+			name = modalSearch;
+			sourceTree = "<group>";
+		};
+		C253C47E1678603B0001FE01 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				C2A2EFEC168DBFAA00F9662E /* NSUserdefaults.h */,
+				C2A2EFED168DBFAA00F9662E /* NSUserdefaults.m */,
+				C2A2EFEE168DBFAA00F9662E /* NSUserdefaults.xib */,
+				C2A4B9AD1666979C000BD0DF /* MemoVC.h */,
+				C2A4B9AE1666979C000BD0DF /* MemoVC.m */,
+				C2A4B9AF1666979C000BD0DF /* MemoVC.xib */,
+				C2A4BA8F1667A55E000BD0DF /* MemoSearch.h */,
+				C2A4BA901667A55E000BD0DF /* MemoSearch.m */,
+				C2A4BA911667A55E000BD0DF /* MemoSearch.xib */,
+			);
+			name = others;
+			sourceTree = "<group>";
+		};
+		C253C48D16786BF50001FE01 /* modalmodal2 */ = {
+			isa = PBXGroup;
+			children = (
+				C253C483167865290001FE01 /* KNView2.h */,
+				C253C484167865290001FE01 /* KNView2.m */,
+				C253C485167865290001FE01 /* KNView2.xib */,
+				C253C4881678653F0001FE01 /* modalmodal2.h */,
+				C253C489167865400001FE01 /* modalmodal2.m */,
+				C253C48A167865400001FE01 /* modalmodal2.xib */,
+			);
+			name = modalmodal2;
+			sourceTree = "<group>";
+		};
+		C2A4B97816669283000BD0DF = {
+			isa = PBXGroup;
+			children = (
+				C233806A1684780B007C90A6 /* AdNend */,
+				C233801116843AD1007C90A6 /* Admob */,
+				C253C48D16786BF50001FE01 /* modalmodal2 */,
+				C253C47D16785F7C0001FE01 /* modalSearch */,
+				C253C47E1678603B0001FE01 /* others */,
+				C2A4B98D16669283000BD0DF /* gooMemo */,
+				C2A4B98616669283000BD0DF /* Frameworks */,
+				C2A4B98416669283000BD0DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2A4B98416669283000BD0DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2A4B98316669283000BD0DF /* gooMemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2A4B98616669283000BD0DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2A2EFE7168DBA3B00F9662E /* CoreData.framework */,
+				C233801716845033007C90A6 /* Security.framework */,
+				C233800F168439FB007C90A6 /* StoreKit.framework */,
+				C233800D168439A9007C90A6 /* AdSupport.framework */,
+				C253C5291678EFA50001FE01 /* AudioToolbox.framework */,
+				C253C5271678EF9E0001FE01 /* MessageUI.framework */,
+				C253C5251678EF8F0001FE01 /* SystemConfiguration.framework */,
+				C253C4A61678C30A0001FE01 /* iAd.framework */,
+				C2A4BA941667B9C1000BD0DF /* QuartzCore.framework */,
+				C2A4B98716669283000BD0DF /* UIKit.framework */,
+				C2A4B98916669283000BD0DF /* Foundation.framework */,
+				C2A4B98B16669283000BD0DF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2A4B98D16669283000BD0DF /* gooMemo */ = {
+			isa = PBXGroup;
+			children = (
+				C2A4B99616669283000BD0DF /* AppDelegate.h */,
+				C2A4B99716669283000BD0DF /* AppDelegate.m */,
+				C2A4B99F16669283000BD0DF /* ViewController.h */,
+				C2A4B9A016669283000BD0DF /* ViewController.m */,
+				C2A4B9A216669283000BD0DF /* ViewController.xib */,
+				C2A4B98E16669283000BD0DF /* Supporting Files */,
+			);
+			path = gooMemo;
+			sourceTree = "<group>";
+		};
+		C2A4B98E16669283000BD0DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2A4BA87166785C4000BD0DF /* gooLog.jpg */,
+				C2A4B98F16669283000BD0DF /* gooMemo-Info.plist */,
+				C2A4B99016669283000BD0DF /* InfoPlist.strings */,
+				C2A4B99316669283000BD0DF /* main.m */,
+				C2A4B99516669283000BD0DF /* gooMemo-Prefix.pch */,
+				C2A4B99916669283000BD0DF /* Default.png */,
+				C2A4B99B16669283000BD0DF /* Default@2x.png */,
+				C2A4B99D16669283000BD0DF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2A4B98216669283000BD0DF /* gooMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A4B9A716669283000BD0DF /* Build configuration list for PBXNativeTarget "gooMemo" */;
+			buildPhases = (
+				C2A4B97F16669283000BD0DF /* Sources */,
+				C2A4B98016669283000BD0DF /* Frameworks */,
+				C2A4B98116669283000BD0DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gooMemo;
+			productName = gooMemo;
+			productReference = C2A4B98316669283000BD0DF /* gooMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2A4B97A16669283000BD0DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = KitamuraShogo;
+			};
+			buildConfigurationList = C2A4B97D16669283000BD0DF /* Build configuration list for PBXProject "gooMemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2A4B97816669283000BD0DF;
+			productRefGroup = C2A4B98416669283000BD0DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2A4B98216669283000BD0DF /* gooMemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2A4B98116669283000BD0DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A4B99216669283000BD0DF /* InfoPlist.strings in Resources */,
+				C2A4B99A16669283000BD0DF /* Default.png in Resources */,
+				C2A4B99C16669283000BD0DF /* Default@2x.png in Resources */,
+				C2A4B99E16669283000BD0DF /* Default-568h@2x.png in Resources */,
+				C2A4B9A416669283000BD0DF /* ViewController.xib in Resources */,
+				C2A4B9B11666979D000BD0DF /* MemoVC.xib in Resources */,
+				C2A4BA88166785C4000BD0DF /* gooLog.jpg in Resources */,
+				C2A4BA931667A55E000BD0DF /* MemoSearch.xib in Resources */,
+				C253C47716785AB80001FE01 /* ModalModal.xib in Resources */,
+				C253C47C16785B2F0001FE01 /* KNView.xib in Resources */,
+				C253C487167865290001FE01 /* KNView2.xib in Resources */,
+				C253C48C167865400001FE01 /* modalmodal2.xib in Resources */,
+				C233801516844F3C007C90A6 /* libNendAd_readme.txt in Resources */,
+				C2A2EFF0168DBFAA00F9662E /* NSUserdefaults.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2A4B97F16669283000BD0DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A4B99416669283000BD0DF /* main.m in Sources */,
+				C2A4B99816669283000BD0DF /* AppDelegate.m in Sources */,
+				C2A4B9A116669283000BD0DF /* ViewController.m in Sources */,
+				C2A4B9B01666979D000BD0DF /* MemoVC.m in Sources */,
+				C2A4BA921667A55E000BD0DF /* MemoSearch.m in Sources */,
+				C253C47216785A3B0001FE01 /* UIViewController+KNSemiModal.m in Sources */,
+				C253C47616785AB80001FE01 /* ModalModal.m in Sources */,
+				C253C47B16785B2F0001FE01 /* KNView.m in Sources */,
+				C253C486167865290001FE01 /* KNView2.m in Sources */,
+				C253C48B167865400001FE01 /* modalmodal2.m in Sources */,
+				C2A2EFEF168DBFAA00F9662E /* NSUserdefaults.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2A4B99016669283000BD0DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A4B99116669283000BD0DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2A4B9A216669283000BD0DF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A4B9A316669283000BD0DF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2A4B9A516669283000BD0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2A4B9A616669283000BD0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2A4B9A816669283000BD0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gooMemo/gooMemo-Prefix.pch";
+				INFOPLIST_FILE = "gooMemo/gooMemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2A4B9A916669283000BD0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gooMemo/gooMemo-Prefix.pch";
+				INFOPLIST_FILE = "gooMemo/gooMemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2A4B97D16669283000BD0DF /* Build configuration list for PBXProject "gooMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A4B9A516669283000BD0DF /* Debug */,
+				C2A4B9A616669283000BD0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A4B9A716669283000BD0DF /* Build configuration list for PBXNativeTarget "gooMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A4B9A816669283000BD0DF /* Debug */,
+				C2A4B9A916669283000BD0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2A4B97A16669283000BD0DF /* Project object */;
+}
